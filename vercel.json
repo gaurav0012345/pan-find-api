@@ -1,5 +1,6 @@
 {
+  "version": 2,
   "rewrites": [
-    { "source": "/get_pan", "destination": "api/main" }
+    { "source": "/get_pan", "destination": "/api/main.py" }
   ]
 }
