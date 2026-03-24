@@ -29,9 +29,9 @@ def get_pan():
         'User-Agent': "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
         'Accept': "application/json, text/javascript, */*",
         'X-Requested-With': "XMLHttpRequest",
-        'Referer': "https://www.bharatpan.com/retailer/findPan",
+        'Referer': "https://www.bharatpan.com/retailer/findpan",
         'Origin': "https://www.bharatpan.com",
-        'Content-Type': "application/x-www-form-urlencoded"
+        'Cookie': 'ci_session=2da8945321ce454cc1a0520b0b18bc2554ee4c8d' # <--- Aapki nikaali hui cookie
     }
 
     try:
