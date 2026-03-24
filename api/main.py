@@ -30,11 +30,13 @@ def get_pan():
     }
 
     headers = {
-        'User-Agent': "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36",
+        'User-Agent': "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
         'Accept': "application/json, text/javascript, */*; q=0.01",
-        'x-requested-with': "XMLHttpRequest",
-        'origin': "https://www.bharatpan.com",
-        'referer': "https://www.bharatpan.com/retailer/findPan",
+        'Accept-Language': "en-US,en;q=0.9,hi;q=0.8",
+        'Referer': "https://www.bharatpan.com/retailer/findPan",
+        'X-Requested-With': "XMLHttpRequest",
+        'Origin': "https://www.bharatpan.com",
+        'Connection': "keep-alive"
     }
 
     try:
